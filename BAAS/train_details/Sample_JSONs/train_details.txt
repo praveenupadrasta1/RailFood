@@ -1,0 +1,151 @@
+############################ Train Details ###################
+# Author : Praveen Upadrasta
+# Created Date: 10-03-2018
+# source: https://railwayapi.com/api/#train-route
+API URL: "https://api.railwayapi.com/v2/route/train/12006/apikey/myapikey/"
+
+{
+  "response_code": 200,
+  "debit": 1,
+  "train": {
+    "name": "KLK-NDLS SHATABDI EXP",
+    "number": "12006",
+    "days": [
+      {
+        "code": "MON",
+        "runs": "Y"
+      },
+      {
+        "code": "TUE",
+        "runs": "Y"
+      },
+      {
+        "code": "WED",
+        "runs": "Y"
+      },
+      {
+        "code": "THU",
+        "runs": "Y"
+      },
+      {
+        "code": "FRI",
+        "runs": "Y"
+      },
+      {
+        "code": "SAT",
+        "runs": "Y"
+      },
+      {
+        "code": "SUN",
+        "runs": "Y"
+      }
+    ],
+    "classes": [
+      {
+        "code": "3A",
+        "available": "N"
+      },
+      {
+        "code": "SL",
+        "available": "N"
+      },
+      {
+        "code": "1A",
+        "available": "N"
+      },
+      {
+        "code": "2S",
+        "available": "N"
+      },
+      {
+        "code": "FC",
+        "available": "N"
+      },
+      {
+        "code": "2A",
+        "available": "N"
+      },
+      {
+        "code": "CC",
+        "available": "N"
+      },
+      {
+        "code": "3E",
+        "available": "N"
+      }
+    ]
+  },
+
+  "route": [
+    {
+      "no": 1,
+      "scharr": "SOURCE",
+      "schdep": "06:15",
+      "distance": 0,
+      "halt": -1,
+      "day": 1,
+      "station": {
+        "name": "KALKA",
+        "code": "KLK",
+        "lng": null,
+        "lat": null
+      }
+    },
+    {
+      "no": 2,
+      "scharr": "06:45",
+      "schdep": "06:53",
+      "distance": 37,
+      "halt": 8,
+      "day": 1,
+      "station": {
+        "name": "CHANDIGARH",
+        "code": "CDG",
+        "lng": null,
+        "lat": null
+      }
+    },
+    {
+      "no": 3,
+      "scharr": "07:33",
+      "schdep": "07:38",
+      "distance": 104,
+      "halt": 5,
+      "day": 1,
+      "station": {
+        "name": "AMBALA CANT JN",
+        "code": "UMB",
+        "lng": null,
+        "lat": null
+      }
+    },
+    {
+      "no": 4,
+      "scharr": "08:10",
+      "schdep": "08:12",
+      "distance": 146,
+      "halt": 2,
+      "day": 1,
+      "station": {
+        "name": "KURUKSHETRA JN",
+        "code": "KKDE",
+        "lng": null,
+        "lat": null
+      }
+    },
+    {
+      "no": 5,
+      "scharr": "10:20",
+      "schdep": "DEST",
+      "distance": 302,
+      "halt": -1,
+      "day": 1,
+      "station": {
+        "name": "NEW DELHI",
+        "code": "NDLS",
+        "lng": null,
+        "lat": null
+      }
+    }
+  ]
+}

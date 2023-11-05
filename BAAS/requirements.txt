@@ -1,0 +1,17 @@
+django==1.11.9
+djangorestframework
+pyjwt
+pyotp
+datetime
+mysqlclient
+mysql-python
+django_extensions
+google-api-python-client
+oauth2client
+python-gflags
+requests
+sparkpost
+httplib2
+django-cors-headers
+django-mysql
+pytz

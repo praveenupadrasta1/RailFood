@@ -1,0 +1,7 @@
+DATE_TIME_INPUT_FORMAT = ('%d-%m-%Y %H:%M:%S %Z')
+DATE_INPUT_FORMAT = ('%d-%m-%Y')
+ACCEPTED_DATE_FORMAT = '%Y-%m-%d'
+
+TIME_INPUT_FORMAT = '%H:%M'
+ACCEPTED_TIME_FORMAT = '%H:%M:%S'
+IST_TIMEZONE = 'Asia/Kolkata'

@@ -1,0 +1,64 @@
+############################# PNR Details ##################################
+# Author : Praveen Upadrasta
+# Created Date: 10-03-2018
+# source: https://railwayapi.com/api/#pnr-status
+
+API URL: "https://api.railwayapi.com/v2/pnr-status/pnr/1234567890/apikey/myapikey/"
+
+{
+    "reservation_upto":{
+        "name": "SECUNDERABAD JN",
+        "lng": 78.5059176,
+        "lat": 17.4690889,
+        "code": "SC"
+    },
+    "passengers":[
+        {
+            "no": 1,
+            "booking_status": "CNF/C1/5/GN",
+            "current_status": "CNF/-/0/GN"
+        },
+        {
+            "no": 2,
+            "booking_status": "CNF/C1/6/GN",
+            "current_status": "CNF/-/0/GN"
+        }
+    ],
+    "journey_class":{
+        "name": null,
+        "code": "CC"
+    },
+    "response_code": 200,
+    "to_station":{
+        "name": "SECUNDERABAD JN",
+        "lng": 78.5059176,
+        "lat": 17.4690889,
+        "code": "SC"
+    },
+    "boarding_point":{
+        "name": "SATTENAPALLE",
+        "lng": 80.1489341,
+        "lat": 16.3925393,
+        "code": "SAP"
+    },
+    "pnr": "6412128941",
+    "chart_prepared": false,
+    "train":{
+        "days":[{
+                "runs": "Y", "code": "MON" }, {"runs": "Y",…],
+        }
+        "name": "VSKP-SC JANMABHOOMI",
+        "classes":[{"name": "SECOND AC", "available": "N", "code": "2A" },…],
+        "number": "12805"
+    },
+    "from_station":{
+        "name": "SATTENAPALLE",
+        "lng": 80.1489341,
+        "lat": 16.3925393,
+        "code": "SAP"
+    },
+    "doj": "23-03-2018",
+    "total_passengers": 2,
+    "debit": 3
+}
+

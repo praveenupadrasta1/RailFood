@@ -1,0 +1,388 @@
+############################ GOOGLE MAPS JSON ##########################################
+# Author : Praveen Upadrasta
+# Created Date: 10-03-2018
+API URL: https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=YOUR_API_KEY
+
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Park Street",
+               "short_name" : "Park Street",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sattenapalle",
+               "short_name" : "Sattenapalle",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Guntur",
+               "short_name" : "Guntur",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Andhra Pradesh",
+               "short_name" : "AP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "522403",
+               "short_name" : "522403",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Park Street, Sattenapalle, Andhra Pradesh 522403, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 16.392907,
+                  "lng" : 80.14954180000001
+               },
+               "southwest" : {
+                  "lat" : 16.3927886,
+                  "lng" : 80.1483944
+               }
+            },
+            "location" : {
+               "lat" : 16.392806,
+               "lng" : 80.14897289999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 16.39419678029151,
+                  "lng" : 80.15031708029152
+               },
+               "southwest" : {
+                  "lat" : 16.3914988197085,
+                  "lng" : 80.14761911970851
+               }
+            }
+         },
+         "place_id" : "ChIJoW5-GHyBNToRKXFKmwoCeTM",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Vaddavalli",
+               "short_name" : "Vaddavalli",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Kothapeta",
+               "short_name" : "Kothapeta",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Sattenapalle",
+               "short_name" : "Sattenapalle",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Guntur",
+               "short_name" : "Guntur",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Andhra Pradesh",
+               "short_name" : "AP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "522403",
+               "short_name" : "522403",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Vaddavalli, Kothapeta, Sattenapalle, Andhra Pradesh 522403, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 16.3927783,
+                  "lng" : 80.14955519999999
+               },
+               "southwest" : {
+                  "lat" : 16.3898449,
+                  "lng" : 80.14589669999999
+               }
+            },
+            "location" : {
+               "lat" : 16.3916769,
+               "lng" : 80.14739399999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 16.3927783,
+                  "lng" : 80.14955519999999
+               },
+               "southwest" : {
+                  "lat" : 16.3898449,
+                  "lng" : 80.14589669999999
+               }
+            }
+         },
+         "place_id" : "ChIJzR2ss36BNToRc10op4ALwsg",
+         "types" : [ "neighborhood", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sattenapalle",
+               "short_name" : "Sattenapalle",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Guntur",
+               "short_name" : "Guntur",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Andhra Pradesh",
+               "short_name" : "AP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "522403",
+               "short_name" : "522403",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Sattenapalle, Andhra Pradesh 522403, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 16.4075269,
+                  "lng" : 80.1612281
+               },
+               "southwest" : {
+                  "lat" : 16.3856108,
+                  "lng" : 80.1379338
+               }
+            },
+            "location" : {
+               "lat" : 16.3944043,
+               "lng" : 80.1512317
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 16.4075269,
+                  "lng" : 80.1612281
+               },
+               "southwest" : {
+                  "lat" : 16.3856108,
+                  "lng" : 80.1379338
+               }
+            }
+         },
+         "place_id" : "ChIJBZ3jfH2BNToREkhQhwjKSgw",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "522403",
+               "short_name" : "522403",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Guntur",
+               "short_name" : "Guntur",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Andhra Pradesh",
+               "short_name" : "AP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Andhra Pradesh 522403, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 16.5036755,
+                  "lng" : 80.24510900000001
+               },
+               "southwest" : {
+                  "lat" : 16.3323712,
+                  "lng" : 80.0464016
+               }
+            },
+            "location" : {
+               "lat" : 16.4212594,
+               "lng" : 80.1651854
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 16.5036755,
+                  "lng" : 80.24510900000001
+               },
+               "southwest" : {
+                  "lat" : 16.3323712,
+                  "lng" : 80.0464016
+               }
+            }
+         },
+         "place_id" : "ChIJJTi3V8qDNToR5or3Orqakxo",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Guntur",
+               "short_name" : "Guntur",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Andhra Pradesh",
+               "short_name" : "AP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Guntur, Andhra Pradesh, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 16.82299,
+                  "lng" : 80.9022701
+               },
+               "southwest" : {
+                  "lat" : 15.70907,
+                  "lng" : 79.20806
+               }
+            },
+            "location" : {
+               "lat" : 16.3905692,
+               "lng" : 80.0087746
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 16.82299,
+                  "lng" : 80.9022701
+               },
+               "southwest" : {
+                  "lat" : 15.70907,
+                  "lng" : 79.20806
+               }
+            }
+         },
+         "place_id" : "ChIJ2Wpw6UF1SjoRgZj3iYRe7Hs",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Andhra Pradesh",
+               "short_name" : "AP",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Andhra Pradesh, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 19.1565479,
+                  "lng" : 84.804131
+               },
+               "southwest" : {
+                  "lat" : 12.596836,
+                  "lng" : 76.749786
+               }
+            },
+            "location" : {
+               "lat" : 15.9128998,
+               "lng" : 79.7399875
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 19.1565479,
+                  "lng" : 84.804131
+               },
+               "southwest" : {
+                  "lat" : 12.596836,
+                  "lng" : 76.749786
+               }
+            }
+         },
+         "place_id" : "ChIJf9STrvhGNToRg82tlb670TM",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.5087008,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            },
+            "location" : {
+               "lat" : 20.593684,
+               "lng" : 78.96288
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.5087008,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            }
+         },
+         "place_id" : "ChIJkbeSa_BfYzARphNChaFPjNc",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

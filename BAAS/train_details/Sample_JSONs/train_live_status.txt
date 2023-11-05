@@ -1,0 +1,146 @@
+############################ Train Details ###################
+# Author : Praveen Upadrasta
+# Created Date: 28-03-2018
+# source: https://railwayapi.com/api/
+API URL: "https://api.railwayapi.com/v2/live/train/12140/date/20-03-2018/apikey/gsc957wtvn/"
+
+{
+"train":{
+"name": "SEWAGRAM EXP.",
+"days":[
+{"runs": "Y", "code": "MON"},
+{"runs": "Y", "code": "TUE"},
+{"runs": "Y", "code": "WED"},
+{"runs": "Y", "code": "THU"},
+{"runs": "Y", "code": "FRI"},
+{"runs": "Y", "code": "SAT"},
+{"runs": "Y", "code": "SUN"}
+],
+"number": "12140",
+"classes":[
+{"name": "SECOND SEATING", "available": "-", "code": "2S"},
+{"name": "SLEEPER CLASS", "available": "-", "code": "SL"},
+{"name": "AC CHAIR CAR", "available": "-", "code": "CC"},
+{"name": "3rd AC ECONOMY", "available": "-", "code": "3E"},
+{"name": "THIRD AC", "available": "-", "code": "3A"},
+{"name": "FIRST AC", "available": "-", "code": "1A"},
+{"name": "SECOND AC", "available": "-", "code": "2A"},
+{"name": "FIRST CLASS", "available": "-", "code": "FC"}
+]
+},
+"route":[
+{
+"actdep": "21:00",
+"distance": 0,
+"scharr_date": "20 Mar 2018",
+"latemin": 0,
+"has_departed": true,
+"has_arrived": true,
+"actarr": "00:00",
+"schdep": "21:00",
+"actarr_date": "20 Mar 2018",
+"status": "0 mins late",
+"day": 0,
+"scharr": "Source",
+"station":{"name": "NAGPUR", "lat": 21.1498134, "lng": 79.0820556, "code": "NGP"…}
+},
+{
+"actdep": "21:14",
+"distance": 2,
+"scharr_date": "20 Mar 2018",
+"latemin": 8,
+"has_departed": true,
+"has_arrived": true,
+"actarr": "21:14",
+"schdep": "21:08",
+"actarr_date": "19 Mar 2018",
+"status": "8 mins late",
+"day": 0,
+"scharr": "21:06",
+"station":{"name": "AJNI", "lat": 21.1271828, "lng": 79.0827146, "code": "AJNI"…}
+},
+{
+"actdep": "21:45",
+"distance": 45,
+"scharr_date": "20 Mar 2018",
+"latemin": 7,
+"has_departed": true,
+"has_arrived": true,
+"actarr": "21:44",
+"schdep": "21:39",
+"actarr_date": "20 Mar 2018",
+"status": "7 mins late",
+"day": 0,
+"scharr": "21:37",
+"station":{"name": "SINDI", "lat": 58.40007255, "lng": 24.6545991194467, "code": "SNI"…}
+},
+{
+"actdep": "22:07",
+"distance": 76,
+"scharr_date": "20 Mar 2018",
+"latemin": 2,
+"has_departed": true,
+"has_arrived": true,
+"actarr": "22:05",
+"schdep": "22:05",
+"actarr_date": "20 Mar 2018",
+"status": "2 mins late",
+"day": 0,
+"scharr": "22:03",
+"station":{"name": "SEVAGRAM", "lat": 20.7354059, "lng": 78.661555, "code": "SEGM"…}
+},
+{"actdep": "22:35", "distance": 78, "scharr_date": "20 Mar 2018", "latemin": 5,…},
+{"actdep": "23:00", "distance": 108, "scharr_date": "20 Mar 2018", "latemin": 0,…},
+{"actdep": "23:19", "distance": 128, "scharr_date": "20 Mar 2018", "latemin": 0,…},
+{"actdep": "23:35", "distance": 144, "scharr_date": "20 Mar 2018", "latemin": 0,…},
+{"actdep": "00:20", "distance": 174, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "00:50", "distance": 215, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "01:25", "distance": 252, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "01:55", "distance": 290, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "02:05", "distance": 302, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "02:15", "distance": 314, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "02:40", "distance": 342, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "02:57", "distance": 362, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "03:15", "distance": 380, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "03:50", "distance": 392, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "04:20", "distance": 416, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "04:55", "distance": 464, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "05:30", "distance": 509, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "06:00", "distance": 551, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "06:25", "distance": 576, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "06:45", "distance": 601, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "07:00", "distance": 618, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "07:30", "distance": 649, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "07:40", "distance": 655, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "08:55", "distance": 700, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "09:35", "distance": 716, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "10:40", "distance": 783, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "11:05", "distance": 803, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{"actdep": "11:33", "distance": 827, "scharr_date": "21 Mar 2018", "latemin": 0,…},
+{
+"actdep": "00:00",
+"distance": 836,
+"scharr_date": "21 Mar 2018",
+"latemin": 0,
+"has_departed": false,
+"has_arrived": false,
+"actarr": "12:00",
+"schdep": "Destination",
+"actarr_date": "21 Mar 2018",
+"status": "0 mins late",
+"day": 1,
+"scharr": "12:00",
+"station":{"name": "C SHIVAJI MAHARAJ T", "lat": 19.0543469, "lng": 72.8703314307576, "code": "CSMT"…}
+}
+],
+"current_station":{
+"name": "WARDHA JN",
+"lat": 20.4355888,
+"lng": 78.6463504,
+"code": "WR"
+},
+"start_date": "20 Mar 2018",
+"position": "Train arrived at WARDHA JN(WR) and late by 0 minutes.",
+"response_code": 200,
+"debit": 2
+}

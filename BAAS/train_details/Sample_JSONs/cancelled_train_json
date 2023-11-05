@@ -1,0 +1,41 @@
+# Cancelled Train JSON
+# Author: Praveen Upadrasta
+# Created Date: 11-3-2018
+# source: https://railwayapi.com/api/#cancelled-trains
+
+API URL: "https://api.railwayapi.com/v2/cancelled/date/26-12-2015/apikey/myapikey/"
+
+{
+  "response_code": 200,
+  "debit": 1,
+  "trains": [
+    {
+      "name": "ANVT-UHP EXPRESS SPL",
+      "number": "04401",
+      "type": "HSP",
+      "start_time": "22:20",
+      "source": {
+        "name": "ANAND VIHAR TERMINAL",
+        "code": "ANVT"
+      },
+      "dest": {
+        "name": "SH MATA V DEVI KATRA",
+        "code": "SVDK"
+      }
+    },
+    {
+      "name": "LTT - HW SUPER FAST EXP",
+      "number": "12171",
+      "type": "SUF",
+      "start_time": "07:55",
+      "source": {
+        "name": "LOKMANYATILAK",
+        "code": "LTT"
+      },
+      "dest": {
+        "name": "HARIDWAR JN",
+        "code": "HW"
+      }
+    }
+  ]
+}
